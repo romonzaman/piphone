@@ -14,23 +14,29 @@ What to put on the bus I2C?
 I have 0x3c fits
 0x3c. Better check scanner I2C.
 
+## Wiring
 
+![img](oled_pi_wiring.png)
 
 ## python
-
+```
 sudo apt-get install python3-pip
 pip3 install adafruit-circuitpython-ssd1306
 sudo apt-get install python3-pil
+```
 
 Speeding up the Display on Raspberry Pi
+```
 sudo nano /boot/config.txt
 dtparam=i2c_baudrate=1000000
+```
 
-
+```
 apt-get install wiringp
 gpio -v
 
 i2cdetect -y 1
 
 
-/usr/bin/python3 /root/lcd_ip.py
+/usr/bin/python3 /root/lcd_ip.py TEST
+```
