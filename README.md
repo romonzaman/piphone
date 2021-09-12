@@ -40,3 +40,21 @@ i2cdetect -y 1
 
 /usr/bin/python3 /root/lcd_ip.py TEST
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+Reference:
+1. https://learn.adafruit.com/monochrome-oled-breakouts/python-usage-2
+2. https://www.raspberrypi-spy.co.uk/2018/04/i2c-oled-display-module-with-raspberry-pi/
